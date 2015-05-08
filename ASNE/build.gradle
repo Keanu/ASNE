@@ -15,7 +15,7 @@ android {
     }
     buildTypes {
         release {
-            runProguard false
+            //runProguard false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
     }
@@ -29,11 +29,7 @@ dependencies {
     compile 'com.android.support:support-v4:21.0.2'
     compile project(':ASNECore')
     compile project(':twitter')
-    compile project(':linkedin')
     compile project(':googleplus')
-    compile project(':vk')
-    compile project(':odnoklassniki')
     compile project(':facebook')
-    compile project(':instagram')
 }
 
