@@ -1,5 +1,5 @@
 apply plugin: 'com.android.library'
-apply from: '../maven_push.gradle'
+//apply from: '../maven_push.gradle'
 
 android {
     compileSdkVersion 21
@@ -23,6 +23,7 @@ android {
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     compile 'com.android.support:appcompat-v7:21.0.2'
+    compile 'com.android.support:support-v4:21.0.2'
     compile project(':ASNECore')
     compile 'com.facebook.android:facebook-android-sdk:3.19.1'
 }

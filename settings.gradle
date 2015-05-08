@@ -1,1 +1,1 @@
-include ':ASNE', ':ASNECore', ':googleplus', ':twitter', ':facebook'
+include ':ASNECore', ':googleplus', ':twitter', ':facebook'

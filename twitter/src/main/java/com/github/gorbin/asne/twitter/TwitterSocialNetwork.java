@@ -106,7 +106,7 @@ public class TwitterSocialNetwork extends OAuthSocialNetwork {
     }
 
     public TwitterSocialNetwork(Fragment fragment, Context context, String consumerKey, String consumerSecret, String redirectURL) {
-        super(fragment, context);
+        super(fragment);
 
         fConsumerKey = consumerKey;
         fConsumerSecret = consumerSecret;
